@@ -55,7 +55,7 @@ AGENTS.md    # 内容生成规范（AI 协作约束）
 | | [字符串处理](./docs/02-core-java/08-string.md) | 🌟🌟 | 🌟🌟🌟🌟🌟 | ✅ 已完成 |
 | | [流程控制](./docs/02-core-java/09-control-flow.md) | 🌟 | 🌟🌟🌟🌟🌟 | ✅ 已完成 |
 | | [数组与集合](./docs/02-core-java/10-collections.md) | 🌟🌟🌟 | 🌟🌟🌟🌟🌟 | ✅ 已完成 |
-| | [IO 与时间日期](./docs/02-core-java/11-io.md) | 🌟🌟🌟 | 🌟🌟🌟🌟 | 📝 待撰写 |
+| | [IO 与时间日期](./docs/02-core-java/11-io.md) | 🌟🌟🌟 | 🌟🌟🌟🌟 | ✅ 已完成 |
 | | [异常处理](./docs/02-core-java/12-exception.md) | 🌟🌟 | 🌟🌟🌟🌟 | 📝 待撰写 |
 | | [线程与并发](./docs/02-core-java/13-concurrency.md) | 🌟🌟🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
 | | [反射、注解与泛型](./docs/02-core-java/14-reflection-annotation-generic.md) | 🌟🌟🌟🌟 | 🌟🌟🌟🌟 | 📝 待撰写 |
