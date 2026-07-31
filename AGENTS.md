@@ -97,13 +97,11 @@ docs/                          # 📘 学习文档（核心：JS vs Java 对比�
     ├── 02-spring-boot.md      # Spring Boot
     └── 03-mybatis.md          # MyBatis
 
-exercises/                     # 🧩 练习代码（双语言对照，同一题 JS/Java 各实现一遍）
-├── javascript/                # JS 实现（用于对照）
-│   ├── basics/                # 基础语法对照
-│   └── algorithms/            # 算法题对照
-└── java/                      # Java 实现（与 javascript/ 目录一一对应、同名同题）
-    ├── basics/
-    └── algorithms/
+exercises/                     # 🧩 练习代码（双语言对照，按 docs 章节组织）
+└── java-core/                 # 对应 docs/02-core-java 的 14 个章节文件夹
+    ├── 01-class-field-method/   # 每章一对同名双语言骨架：Xxx.java + xxx.js
+    ├── ...                      # 文件头注释写练习要求（不给答案），代码由学习者完成
+    └── 14-reflection-annotation-generic/
 
 projects/                      # 🏗️ 完整项目（对应大纲「六、项目实战」「七、部署」）
 ├── library-system/            # 图书馆管理系统：完整 CRUD 入门项目
