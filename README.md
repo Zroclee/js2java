@@ -32,7 +32,7 @@ AGENTS.md    # 内容生成规范（AI 协作约束）
 | 章节 | 文档 | 难度 | 重要度 | 状态 |
 |------|------|------|--------|------|
 | 一、准备工作 | [JDK / JRE / JVM](./docs/01-preparation/jdk-jre-jvm.md) | 🌟 | 🌟🌟🌟🌟 | ✅ 已完成 |
-| | [IDEA 与 Maven 项目](./docs/01-preparation/idea-debug-maven.md) | 🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
+| | [IDEA 与 Maven 项目](./docs/01-preparation/idea-debug-maven.md) | 🌟 | 🌟🌟🌟🌟🌟 | ✅ 已完成 |
 | 二、Java 核心 | [面向对象](./docs/02-core-java/01-oop.md) | 🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
 | | [数据类型与字符串](./docs/02-core-java/02-data-types.md) | 🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
 | | [流程控制与集合](./docs/02-core-java/03-collections.md) | 🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
