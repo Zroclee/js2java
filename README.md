@@ -20,11 +20,35 @@
 ## 仓库结构
 
 ```
-docs/        # Java 学习文档（全程对比 JS 视角撰写）
-examples/    # 同一问题的 JS 与 Java 双语言实现，边写边对比
-project/     # 完整的 Java 后台管理系统（Spring Boot + MyBatis），实战收尾
-ROADMAP.md   # 学习路线与进度跟踪
+docs/        # 📘 学习文档（核心：JS vs Java 对比）
+exercises/   # 🧩 练习代码（JS / Java 双语言对照）
+projects/    # 🏗️ 完整项目（后台管理系统，含部署脚本）
+ROADMAP.md   # 学习路线与完成标准
+AGENTS.md    # 内容生成规范（AI 协作约束）
 ```
+
+## 学习进度
+
+| 章节 | 文档 | 难度 | 重要度 | 状态 |
+|------|------|------|--------|------|
+| 一、准备工作 | [JDK / JRE / JVM](./docs/01-preparation/jdk-jre-jvm.md) | 🌟 | 🌟🌟🌟🌟 | 📝 待撰写 |
+| | [IDEA 与 Maven 项目](./docs/01-preparation/idea-debug-maven.md) | 🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
+| 二、Java 核心 | [面向对象](./docs/02-core-java/01-oop.md) | 🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
+| | [数据类型与字符串](./docs/02-core-java/02-data-types.md) | 🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
+| | [流程控制与集合](./docs/02-core-java/03-collections.md) | 🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
+| | [IO 与时间日期](./docs/02-core-java/04-io.md) | 🌟🌟🌟 | 🌟🌟🌟🌟 | 📝 待撰写 |
+| | [异常处理](./docs/02-core-java/05-exception.md) | 🌟🌟 | 🌟🌟🌟🌟 | 📝 待撰写 |
+| | [线程与并发](./docs/02-core-java/06-concurrency.md) | 🌟🌟🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
+| | [反射、注解与泛型](./docs/02-core-java/07-reflection-annotation-generic.md) | 🌟🌟🌟🌟 | 🌟🌟🌟🌟 | 📝 待撰写 |
+| 三、Docker & 数据库 | [Docker](./docs/03-database/01-docker.md) | 🌟🌟 | 🌟🌟🌟🌟 | 📝 待撰写 |
+| | [MySQL](./docs/03-database/02-mysql.md) | 🌟🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
+| | [PostgreSQL](./docs/03-database/03-postgresql.md) | 🌟🌟🌟 | 🌟🌟🌟 | 📝 待撰写 |
+| | [Redis](./docs/03-database/04-redis.md) | 🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
+| 四、框架 | [Maven](./docs/04-frameworks/01-maven.md) | 🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
+| | [Spring Boot](./docs/04-frameworks/02-spring-boot.md) | 🌟🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
+| | [MyBatis](./docs/04-frameworks/03-mybatis.md) | 🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
+| 五、项目实战 & 部署 | [图书馆管理系统](./projects/library-system) | 🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待开工 |
+| | [后台管理系统（含部署）](./projects/admin-system) | 🌟🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待开工 |
 
 ## 适合谁
 

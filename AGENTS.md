@@ -58,50 +58,42 @@
 学习材料统一放在 `docs/` 目录，章节划分与文件命名**严格如下**，不得随意新增、改名或调整顺序：
 
 ```
-docs/
-├── 00-preparation/
-│   ├── 01-jdk-jre-jvm.md          # JDK、JRE、JVM 与环境搭建
-│   └── 02-idea.md                 # IDEA 使用与 Maven 项目创建
-├── 01-oop/
-│   ├── 01-class-field-method.md   # 类、字段、方法
-│   ├── 02-inheritance-polymorphism.md  # 继承、多态
-│   ├── 03-abstract-interface.md   # 抽象类和接口
-│   ├── 04-static-enum.md          # 静态和枚举
-│   └── 05-package-module.md       # 包、模块
-├── 02-data/
-│   ├── 01-data-types.md           # 数据类型、包装类、自动装箱
-│   ├── 02-operators.md            # 数值运算
-│   ├── 03-string.md               # 字符串处理
-│   ├── 04-control-flow.md         # 判断、循环
-│   ├── 05-array-collection.md     # 数组、集合
-│   ├── 06-io.md                   # IO
-│   └── 07-datetime.md             # 时间日期
-├── 03-exception/
-│   └── 01-exception.md            # 异常处理
-├── 04-concurrency/
-│   └── 01-thread-concurrency.md   # 线程和并发
-├── 05-advanced/
-│   ├── 01-reflection.md           # 反射
-│   ├── 02-annotation.md           # 注解
-│   └── 03-generics.md             # 泛型
-├── 06-docker/
-│   ├── 01-docker-install.md       # Docker 安装与容器
-│   └── 02-docker-image.md         # 镜像与 Dockerfile
-├── 07-database/
-│   ├── 01-database-navicat.md     # 数据库基础与 Navicat
-│   ├── 02-mysql.md                # MySQL
-│   └── 03-postgresql.md           # PostgreSQL
-├── 08-framework/
-│   ├── 01-maven.md                # Maven
-│   ├── 02-redis.md                # Redis
-│   ├── 03-spring-boot.md          # Spring Boot
-│   └── 04-mybatis.md              # MyBatis
-├── 09-project/
-│   ├── 01-ruoyi.md                # RuoYi 源码学习
-│   └── 02-library-system.md       # 图书馆管理系统实战
-└── 10-deploy/
-    └── 01-linux-deploy.md         # Linux 服务器部署
+docs/                          # 📘 学习文档（核心：JS vs Java 对比）
+├── 01-preparation/            # 对应大纲「一、准备工作」
+│   ├── jdk-jre-jvm.md         # JDK、JRE、JVM 与环境搭建
+│   └── idea-debug-maven.md    # IDEA 使用、Debug 与 Maven 项目
+├── 02-core-java/              # 对应大纲「二、Java」（重点）
+│   ├── 01-oop.md              # 类/继承/接口/枚举（含 JS prototype 对比）
+│   ├── 02-data-types.md       # 基本类型/包装类/String（含 JS 弱类型对比）
+│   ├── 03-collections.md      # 流程控制 + List/Set/Map（含 JS Array/Object 对比）
+│   ├── 04-io.md               # IO + 时间日期
+│   ├── 05-exception.md        # 异常处理（受检异常为 Java 独有）
+│   ├── 06-concurrency.md      # 线程/锁/线程池（含 JS Event Loop 对比）
+│   └── 07-reflection-annotation-generic.md  # 反射、注解、泛型
+├── 03-database/               # 对应大纲「三、Docker」「四、数据库」+ Redis
+│   ├── 01-docker.md           # Docker 安装、容器、镜像与 Dockerfile
+│   ├── 02-mysql.md            # MySQL（含 Navicat）
+│   ├── 03-postgresql.md       # PostgreSQL 与 MySQL 差异
+│   └── 04-redis.md            # Redis 缓存、数据结构、过期策略
+└── 04-frameworks/             # 对应大纲「五、框架」
+    ├── 01-maven.md            # Maven
+    ├── 02-spring-boot.md      # Spring Boot
+    └── 03-mybatis.md          # MyBatis
+
+exercises/                     # 🧩 练习代码（双语言对照，同一题 JS/Java 各实现一遍）
+├── javascript/                # JS 实现（用于对照）
+│   ├── basics/                # 基础语法对照
+│   └── algorithms/            # 算法题对照
+└── java/                      # Java 实现（与 javascript/ 目录一一对应、同名同题）
+    ├── basics/
+    └── algorithms/
+
+projects/                      # 🏗️ 完整项目（对应大纲「六、项目实战」「七、部署」）
+├── library-system/            # 图书馆管理系统：完整 CRUD 入门项目
+└── admin-system/              # Spring Boot + Vue 后台管理（对应 RuoYi 学习，含部署脚本）
 ```
+
+**章节合并说明**：docs 章节是对大纲知识点的适度合并（如 OOP 五个知识点合为 `01-oop.md` 一篇），每章内部仍须按大纲知识点逐个覆盖；Redis 按用户规划归入 `03-database/`。新增或拆分章节前必须先更新本文件与 README 进度表。
 
 每章的难度、重要程度、JS 对比锚点、完成标准以 [ROADMAP.md](./ROADMAP.md) 中的表格为准。
 
