@@ -62,14 +62,18 @@ docs/                          # 📘 学习文档（核心：JS vs Java 对比�
 ├── 01-preparation/            # 对应大纲「一、准备工作」
 │   ├── jdk-jre-jvm.md         # JDK、JRE、JVM 与环境搭建
 │   └── idea-debug-maven.md    # IDEA 使用、Debug 与 Maven 项目
-├── 02-core-java/              # 对应大纲「二、Java」（重点）
-│   ├── 01-oop.md              # 类/继承/接口/枚举（含 JS prototype 对比）
-│   ├── 02-data-types.md       # 基本类型/包装类/String（含 JS 弱类型对比）
-│   ├── 03-collections.md      # 流程控制 + List/Set/Map（含 JS Array/Object 对比）
-│   ├── 04-io.md               # IO + 时间日期
-│   ├── 05-exception.md        # 异常处理（受检异常为 Java 独有）
-│   ├── 06-concurrency.md      # 线程/锁/线程池（含 JS Event Loop 对比）
-│   └── 07-reflection-annotation-generic.md  # 反射、注解、泛型
+├── 02-core-java/              # 对应大纲「二、Java」（重点；OOP 按用户要求拆为 5 篇）
+│   ├── 01-class-field-method.md       # 类/字段/方法/构造/重载（含 JS class 对比）
+│   ├── 02-inheritance-polymorphism.md # 继承与多态（extends/super/向上转型）
+│   ├── 03-abstract-interface.md       # 抽象类与接口（对标 TS abstract/interface）
+│   ├── 04-static-enum.md              # 静态成员与枚举
+│   ├── 05-package-module.md           # 包与模块（含 ES Module 对比）
+│   ├── 06-data-types.md       # 基本类型/包装类/String（含 JS 弱类型对比）
+│   ├── 07-collections.md      # 流程控制 + List/Set/Map（含 JS Array/Object 对比）
+│   ├── 08-io.md               # IO + 时间日期
+│   ├── 09-exception.md        # 异常处理（受检异常为 Java 独有）
+│   ├── 10-concurrency.md      # 线程/锁/线程池（含 JS Event Loop 对比）
+│   └── 11-reflection-annotation-generic.md  # 反射、注解、泛型
 ├── 03-database/               # 对应大纲「三、Docker」「四、数据库」+ Redis
 │   ├── 01-docker.md           # Docker 安装、容器、镜像与 Dockerfile
 │   ├── 02-mysql.md            # MySQL（含 Navicat）

@@ -215,4 +215,4 @@ Maven 的生命周期、多模块、依赖冲突等深入内容，本教程在 `
 - Debug 心智与 VS Code 一致，`Alt + F8` 表达式求值和条件断点是进阶神器
 - Maven ≈ npm：`pom.xml` 加坐标 → **Reload**（≈ npm install）→ 使用；依赖存在全局 `~/.m2` 而非项目内
 
-准备工作到此完成，下一章正式进入 Java 语言：[面向对象：类、继承、接口与枚举](../02-core-java/01-oop.md)
+准备工作到此完成，下一章正式进入 Java 语言：[类、字段与方法](../02-core-java/01-class-field-method.md)

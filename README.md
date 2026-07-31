@@ -33,13 +33,17 @@ AGENTS.md    # 内容生成规范（AI 协作约束）
 |------|------|------|--------|------|
 | 一、准备工作 | [JDK / JRE / JVM](./docs/01-preparation/jdk-jre-jvm.md) | 🌟 | 🌟🌟🌟🌟 | ✅ 已完成 |
 | | [IDEA 与 Maven 项目](./docs/01-preparation/idea-debug-maven.md) | 🌟 | 🌟🌟🌟🌟🌟 | ✅ 已完成 |
-| 二、Java 核心 | [面向对象](./docs/02-core-java/01-oop.md) | 🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
-| | [数据类型与字符串](./docs/02-core-java/02-data-types.md) | 🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
-| | [流程控制与集合](./docs/02-core-java/03-collections.md) | 🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
-| | [IO 与时间日期](./docs/02-core-java/04-io.md) | 🌟🌟🌟 | 🌟🌟🌟🌟 | 📝 待撰写 |
-| | [异常处理](./docs/02-core-java/05-exception.md) | 🌟🌟 | 🌟🌟🌟🌟 | 📝 待撰写 |
-| | [线程与并发](./docs/02-core-java/06-concurrency.md) | 🌟🌟🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
-| | [反射、注解与泛型](./docs/02-core-java/07-reflection-annotation-generic.md) | 🌟🌟🌟🌟 | 🌟🌟🌟🌟 | 📝 待撰写 |
+| 二、Java 核心 | [类、字段与方法](./docs/02-core-java/01-class-field-method.md) | 🌟🌟 | 🌟🌟🌟🌟🌟 | ✅ 已完成 |
+| | [继承与多态](./docs/02-core-java/02-inheritance-polymorphism.md) | 🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
+| | [抽象类与接口](./docs/02-core-java/03-abstract-interface.md) | 🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
+| | [静态成员与枚举](./docs/02-core-java/04-static-enum.md) | 🌟🌟 | 🌟🌟🌟🌟 | 📝 待撰写 |
+| | [包与模块](./docs/02-core-java/05-package-module.md) | 🌟 | 🌟🌟🌟 | 📝 待撰写 |
+| | [数据类型与字符串](./docs/02-core-java/06-data-types.md) | 🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
+| | [流程控制与集合](./docs/02-core-java/07-collections.md) | 🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
+| | [IO 与时间日期](./docs/02-core-java/08-io.md) | 🌟🌟🌟 | 🌟🌟🌟🌟 | 📝 待撰写 |
+| | [异常处理](./docs/02-core-java/09-exception.md) | 🌟🌟 | 🌟🌟🌟🌟 | 📝 待撰写 |
+| | [线程与并发](./docs/02-core-java/10-concurrency.md) | 🌟🌟🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
+| | [反射、注解与泛型](./docs/02-core-java/11-reflection-annotation-generic.md) | 🌟🌟🌟🌟 | 🌟🌟🌟🌟 | 📝 待撰写 |
 | 三、Docker & 数据库 | [Docker](./docs/03-database/01-docker.md) | 🌟🌟 | 🌟🌟🌟🌟 | 📝 待撰写 |
 | | [MySQL](./docs/03-database/02-mysql.md) | 🌟🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
 | | [PostgreSQL](./docs/03-database/03-postgresql.md) | 🌟🌟🌟 | 🌟🌟🌟 | 📝 待撰写 |
