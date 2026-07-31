@@ -35,7 +35,7 @@ AGENTS.md    # 内容生成规范（AI 协作约束）
 | | [IDEA 与 Maven 项目](./docs/01-preparation/idea-debug-maven.md) | 🌟 | 🌟🌟🌟🌟🌟 | ✅ 已完成 |
 | 二、Java 核心 | [类、字段与方法](./docs/02-core-java/01-class-field-method.md) | 🌟🌟 | 🌟🌟🌟🌟🌟 | ✅ 已完成 |
 | | [继承与多态](./docs/02-core-java/02-inheritance-polymorphism.md) | 🌟🌟🌟 | 🌟🌟🌟🌟🌟 | ✅ 已完成 |
-| | [抽象类与接口](./docs/02-core-java/03-abstract-interface.md) | 🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
+| | [抽象类与接口](./docs/02-core-java/03-abstract-interface.md) | 🌟🌟🌟 | 🌟🌟🌟🌟🌟 | ✅ 已完成 |
 | | [静态成员与枚举](./docs/02-core-java/04-static-enum.md) | 🌟🌟 | 🌟🌟🌟🌟 | 📝 待撰写 |
 | | [包与模块](./docs/02-core-java/05-package-module.md) | 🌟 | 🌟🌟🌟 | 📝 待撰写 |
 | | [数据类型与字符串](./docs/02-core-java/06-data-types.md) | 🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
