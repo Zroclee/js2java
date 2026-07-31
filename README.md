@@ -51,12 +51,14 @@ AGENTS.md    # 内容生成规范（AI 协作约束）
 | | [静态成员与枚举](./docs/02-core-java/04-static-enum.md) | 🌟🌟 | 🌟🌟🌟🌟 | ✅ 已完成 |
 | | [包与模块](./docs/02-core-java/05-package-module.md) | 🌟 | 🌟🌟🌟 | ✅ 已完成 |
 | | [数据类型](./docs/02-core-java/06-data-types.md) | 🌟🌟 | 🌟🌟🌟🌟🌟 | ✅ 已完成 |
-| | [字符串处理](./docs/02-core-java/07-string.md) | 🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
-| | [流程控制与集合](./docs/02-core-java/08-collections.md) | 🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
-| | [IO 与时间日期](./docs/02-core-java/09-io.md) | 🌟🌟🌟 | 🌟🌟🌟🌟 | 📝 待撰写 |
-| | [异常处理](./docs/02-core-java/10-exception.md) | 🌟🌟 | 🌟🌟🌟🌟 | 📝 待撰写 |
-| | [线程与并发](./docs/02-core-java/11-concurrency.md) | 🌟🌟🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
-| | [反射、注解与泛型](./docs/02-core-java/12-reflection-annotation-generic.md) | 🌟🌟🌟🌟 | 🌟🌟🌟🌟 | 📝 待撰写 |
+| | [数值运算](./docs/02-core-java/07-operators.md) | 🌟 | 🌟🌟🌟 | 📝 待撰写 |
+| | [字符串处理](./docs/02-core-java/08-string.md) | 🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
+| | [流程控制](./docs/02-core-java/09-control-flow.md) | 🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
+| | [数组与集合](./docs/02-core-java/10-collections.md) | 🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
+| | [IO 与时间日期](./docs/02-core-java/11-io.md) | 🌟🌟🌟 | 🌟🌟🌟🌟 | 📝 待撰写 |
+| | [异常处理](./docs/02-core-java/12-exception.md) | 🌟🌟 | 🌟🌟🌟🌟 | 📝 待撰写 |
+| | [线程与并发](./docs/02-core-java/13-concurrency.md) | 🌟🌟🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
+| | [反射、注解与泛型](./docs/02-core-java/14-reflection-annotation-generic.md) | 🌟🌟🌟🌟 | 🌟🌟🌟🌟 | 📝 待撰写 |
 | 三、Docker & 数据库 | [Docker](./docs/03-database/01-docker.md) | 🌟🌟 | 🌟🌟🌟🌟 | 📝 待撰写 |
 | | [MySQL](./docs/03-database/02-mysql.md) | 🌟🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
 | | [PostgreSQL](./docs/03-database/03-postgresql.md) | 🌟🌟🌟 | 🌟🌟🌟 | 📝 待撰写 |

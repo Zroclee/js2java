@@ -79,12 +79,14 @@ docs/                          # 📘 学习文档（核心：JS vs Java 对比�
 │   ├── 04-static-enum.md              # 静态成员与枚举
 │   ├── 05-package-module.md           # 包与模块（含 ES Module 对比）
 │   ├── 06-data-types.md       # 基本类型/引用类型/包装类/自动装箱（含 JS 类型系统对比）
-│   ├── 07-string.md           # String 不可变/== vs equals/常量池/StringBuilder
-│   ├── 08-collections.md      # 流程控制 + List/Set/Map（含 JS Array/Object 对比）
-│   ├── 09-io.md               # IO + 时间日期
-│   ├── 10-exception.md        # 异常处理（受检异常为 Java 独有）
-│   ├── 11-concurrency.md      # 线程/锁/线程池（含 JS Event Loop 对比）
-│   └── 12-reflection-annotation-generic.md  # 反射、注解、泛型
+│   ├── 07-operators.md        # 数值运算：位运算/移位/溢出/短路/三元/BigInteger/BigDecimal
+│   ├── 08-string.md           # String 不可变/== vs equals/常量池/StringBuilder
+│   ├── 09-control-flow.md     # 流程控制：if/switch 表达式/循环/增强 for
+│   ├── 10-collections.md      # 数组 + List/Set/Map（含 JS Array/Object 对比）
+│   ├── 11-io.md               # IO + 时间日期
+│   ├── 12-exception.md        # 异常处理（受检异常为 Java 独有）
+│   ├── 13-concurrency.md      # 线程/锁/线程池（含 JS Event Loop 对比）
+│   └── 14-reflection-annotation-generic.md  # 反射、注解、泛型
 ├── 03-database/               # 对应大纲「三、Docker」「四、数据库」+ Redis
 │   ├── 01-docker.md           # Docker 安装、容器、镜像与 Dockerfile
 │   ├── 02-mysql.md            # MySQL（含 Navicat）

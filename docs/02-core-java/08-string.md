@@ -4,7 +4,7 @@
 
 ## 简介
 本章学习内容：String 不可变性、`==` vs `equals`、字符串常量池、常用 API、StringBuilder/StringBuffer
-前置知识：完成「06-data-types」；JS 字符串使用经验
+前置知识：完成「07-operators」；JS 字符串使用经验
 阅读时长：约 30 分钟
 难度：🌟🌟
 重要程度：🌟🌟🌟🌟🌟
