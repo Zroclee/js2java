@@ -51,7 +51,7 @@ AGENTS.md    # 内容生成规范（AI 协作约束）
 | | [静态成员与枚举](./docs/02-core-java/04-static-enum.md) | 🌟🌟 | 🌟🌟🌟🌟 | ✅ 已完成 |
 | | [包与模块](./docs/02-core-java/05-package-module.md) | 🌟 | 🌟🌟🌟 | ✅ 已完成 |
 | | [数据类型](./docs/02-core-java/06-data-types.md) | 🌟🌟 | 🌟🌟🌟🌟🌟 | ✅ 已完成 |
-| | [数值运算](./docs/02-core-java/07-operators.md) | 🌟 | 🌟🌟🌟 | 📝 待撰写 |
+| | [数值运算](./docs/02-core-java/07-operators.md) | 🌟 | 🌟🌟🌟 | ✅ 已完成 |
 | | [字符串处理](./docs/02-core-java/08-string.md) | 🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
 | | [流程控制](./docs/02-core-java/09-control-flow.md) | 🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
 | | [数组与集合](./docs/02-core-java/10-collections.md) | 🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
