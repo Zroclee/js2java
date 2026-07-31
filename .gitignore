@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Java
+*.class
+*.jar
+*.war
+target/
+build/
+out/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# Maven / Gradle
+.mvn/
+gradle-wrapper.jar
+
+# Logs
+*.log
