@@ -262,6 +262,10 @@ fixed.add("d");   // 💥 UnsupportedOperationException
 
 1. 用 `HashMap<String, Integer>` 统计字符串 `"hello world hello java world"` 中每个单词出现的次数并打印（提示：`split` 切分 + `getOrDefault`）。
 2. 有一个 `List<Integer>` 装着 1~10，用两种方式删除其中所有偶数：(a) Iterator；(b) `removeIf`。再试试在增强 for 里直接 `remove`，观察抛出的异常名称。
+3. **体会定长**：定义 `int[] arr = {1, 2, 3}`，尝试"追加"一个元素 4——你做不到，只能用 `Arrays.copyOf` 造一个新数组。写代码完成这次"手动扩容"，再用 `Arrays.toString` 打印新旧两个数组，打印后观察旧数组是否变化。
+4. **去重的三种风味**：给 `List<String>`（含重复元素）分别用 `HashSet`、`LinkedHashSet`、`TreeSet` 去重并打印，观察三者的顺序差异；再用 JS 的 `[...new Set(arr)]` 实现一次，对比哪种 Java 实现和 JS 行为最接近。
+5. **栈的实际应用**：用 `ArrayDeque` 当栈，实现括号匹配检查 `boolean isValid(String s)`——输入如 `"({[]})"` 返回 true，`"({[})]"` 返回 false。（提示：遇左括号入栈，遇右括号弹栈比对）
+6. **双语言对照**（呼应 exercises/ 训练法）：需求——把一组用户按年龄分组。先用 JS 完成（`users.reduce` 或 `Map`），再用 Java 完成（`Map<Integer, List<User>>`，`computeIfAbsent` 或 `getOrDefault` + 手动 put）。对比两种语言里"分组"这个需求的代码量与心智差异。
 
 ## 本章总结
 
