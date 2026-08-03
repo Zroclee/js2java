@@ -65,7 +65,7 @@ AGENTS.md    # 内容生成规范（AI 协作约束）
 | | [Redis](./docs/03-database/04-redis.md) | 🌟🌟🌟 | 🌟🌟🌟🌟🌟 | ✅ 已完成 |
 | 四、框架 | [Maven](./docs/04-frameworks/01-maven.md) | 🌟🌟 | 🌟🌟🌟🌟🌟 | ✅ 已完成 |
 | | [Spring Boot](./docs/04-frameworks/02-spring-boot.md) | 🌟🌟🌟🌟 | 🌟🌟🌟🌟🌟 | ✅ 已完成 |
-| | [MyBatis](./docs/04-frameworks/03-mybatis.md) | 🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
+| | [MyBatis](./docs/04-frameworks/03-mybatis.md) | 🌟🌟🌟 | 🌟🌟🌟🌟🌟 | ✅ 已完成 |
 | 五、项目实战 & 部署 | [图书馆管理系统](./projects/library-system) | 🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待开工 |
 | | [后台管理系统（含部署）](./projects/admin-system) | 🌟🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待开工 |
 
