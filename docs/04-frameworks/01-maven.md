@@ -18,6 +18,13 @@
 
 先定位：npm 是包管理器，构建靠 scripts 里手写的命令；**Maven 是三合一**——依赖管理 + 构建生命周期（编译/测试/打包）+ 项目结构规范（约定优于配置：`src/main/java` 放哪它说了算）。
 
+> 💡 **"那 Maven ≈ npm + webpack + eslint 的集合体？"——方向对，两个边界要修正：**
+>
+> - **构建 ≠ bundling**：webpack/vite 是 *bundler*——把几百个 JS 模块合并压缩成少量 bundle（解决浏览器无模块系统、请求昂贵）。Maven 的构建是 *compile + archive*：javac 把 `.java` 一对一编译成 `.class`，jar 只是把这些 class **原样打成 zip**——不合并、不压缩、不 tree-shake。JVM 靠 classpath 按需加载类，根本不需要 bundling。所以 Java 世界没有"打包器"这个角色，Maven 更像 `tsc + zip + 任务流水线`。
+> - **"项目结构规范"不是代码风格**：Maven 管的是**物理目录布局**（`src/main/java` 必须在哪）——"文件放哪"的强制约定，前端没有对应物（目录全靠团队自觉）。eslint/prettier 管"代码怎么写"，Java 的对应物是 **Checkstyle**（≈eslint）和 **Spotless**（≈prettier）——以 **Maven 插件**身份挂载的可选配件，不是 Maven 本体。
+>
+> 精确等式：`Maven ≈ npm + tsc&流水线 + 强制目录布局`。顺带一提：Maven 本体其实是个插件框架，compile/test/package 全是官方插件干的——这点倒和 webpack 的插件体系神似。
+
 ## 依赖管理机制 🔥
 
 ### 传递依赖（Transitive Dependencies）
