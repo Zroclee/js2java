@@ -60,7 +60,7 @@ AGENTS.md    # 内容生成规范（AI 协作约束）
 | | [线程与并发](./docs/02-core-java/13-concurrency.md) | 🌟🌟🌟🌟🌟 | 🌟🌟🌟🌟🌟 | ✅ 已完成 |
 | | [反射、注解与泛型](./docs/02-core-java/14-reflection-annotation-generic.md) | 🌟🌟🌟🌟 | 🌟🌟🌟🌟 | ✅ 已完成 |
 | 三、Docker & 数据库 | [Docker](./docs/03-database/01-docker.md) | 🌟🌟 | 🌟🌟🌟🌟 | ✅ 已完成 |
-| | [MySQL](./docs/03-database/02-mysql.md) | 🌟🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
+| | [MySQL](./docs/03-database/02-mysql.md) | 🌟🌟🌟🌟 | 🌟🌟🌟🌟🌟 | ✅ 已完成 |
 | | [PostgreSQL](./docs/03-database/03-postgresql.md) | 🌟🌟🌟 | 🌟🌟🌟 | 📝 待撰写 |
 | | [Redis](./docs/03-database/04-redis.md) | 🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
 | 四、框架 | [Maven](./docs/04-frameworks/01-maven.md) | 🌟🌟 | 🌟🌟🌟🌟🌟 | 📝 待撰写 |
