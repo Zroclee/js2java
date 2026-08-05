@@ -268,4 +268,4 @@ userMapper.insert(user);
 - MyBatis 三件套：实体 + Mapper 接口（无实现，动态代理生成 💡）+ XML；**`#{}` 预编译防注入，`${}` 裸拼接** ⚠️💼；动态 SQL 标签处理条件拼接
 - 选型：国内复杂业务 → MyBatis/MyBatis-Plus；快速原型/国外 → JPA
 
-框架篇收官 🎉 所有理论装备已集齐——下一站进入实战：[projects/library-system 图书馆管理系统](../../projects/library-system)
+下一章：[常用注解速查](./04-common-annotations.md)——把 Spring/Validation/Lombok/JPA/MyBatis 的注解按依赖归堆，形成一张长期查阅的地图

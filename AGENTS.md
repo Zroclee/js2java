@@ -95,7 +95,8 @@ docs/                          # 📘 学习文档（核心：JS vs Java 对比�
 └── 04-frameworks/             # 对应大纲「五、框架」
     ├── 01-maven.md            # Maven
     ├── 02-spring-boot.md      # Spring Boot
-    └── 03-mybatis.md          # MyBatis
+    ├── 03-mybatis.md          # MyBatis
+    └── 04-common-annotations.md  # 常用注解速查（Spring/Validation/Lombok/JPA/MyBatis）
 
 exercises/                     # 🧩 练习代码（双语言对照，按 docs 章节组织）
 └── java-core/                 # 对应 docs/02-core-java 的 14 个章节文件夹

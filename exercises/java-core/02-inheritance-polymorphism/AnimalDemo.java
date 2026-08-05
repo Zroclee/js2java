@@ -13,3 +13,17 @@ public class AnimalDemo {
         // 在这里写你的练习代码
     }
 }
+
+class Animal {
+    protected String name;
+    public void speak() {
+        System.out.println("动物在说话");
+    }
+}
+
+class Dog extends Animal {
+    @Override
+    public void speak() {
+        System.out.println("汪汪汪");
+    }
+}
